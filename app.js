@@ -27,13 +27,29 @@
 // 10 - 65 ADULT $20
 // 65 + SENIOR 
 
-const age = 35;
-if (age < 5) {
-    console.log("FREE ENTREE")
-} else if (age < 10) {
-    console.log("You are a child Ticket $10")
-} else if (age < 65) {
-    console.log("You are an adult Ticket $20")
-} else {
-    console.log("You are a Senior Ticket $10")
+// const age = 35;
+// if (age < 5) {
+//     console.log("FREE ENTREE")
+// } else if (age < 10) {
+//     console.log("You are a child Ticket $10")
+// } else if (age < 65) {
+//     console.log("You are an adult Ticket $20")
+// } else {
+//     console.log("You are a Senior Ticket $10")
+// }
+
+// const age = 90;
+// if (age >= 0 && age < 5 || age >= 65) {
+//     console.log("Free ticket");
+// } else if (age >= 5 && age < 10) {
+//     console.log("$10")
+// } else if (age >= 10 && age < 65) {
+//     console.log("$20");
+// } else {
+//     console.log("Age not valid")
+// }
+
+let firstname = prompt("enter your first name");
+if (!firstname) {
+    firstname = promt("Try again")
 }
